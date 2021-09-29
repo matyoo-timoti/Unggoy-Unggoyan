@@ -141,6 +141,7 @@ public class Main {
         }
     }
 
+
     private static void whoGoesFirst(boolean userFirst) {
         if (userFirst) {
             do {
@@ -345,9 +346,8 @@ public class Main {
 
     public static void pressEnterKeyToContinue() {
         System.out.println();
-        Scanner s = new Scanner(System.in);
         anim.pressAnyKeyAnim();
-        s.nextLine();
+        scanner.nextLine();
         System.out.println(line);
     }
 
