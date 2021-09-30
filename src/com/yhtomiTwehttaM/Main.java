@@ -1,6 +1,10 @@
 package com.yhtomiTwehttaM;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
     static Scanner scanner = new Scanner(System.in);
@@ -347,7 +351,8 @@ public class Main {
     public static void pressEnterKeyToContinue() {
         System.out.println();
         anim.pressAnyKeyAnim();
-        scanner.nextLine();
+        Scanner s = new Scanner(System.in);
+        s.nextLine();
         System.out.println(line);
     }
 
